@@ -124,3 +124,88 @@
 LISTEN Сокет ожидает входящих подключений.<br> 
 SYN_SENT Сокет, находящийся в режиме активной попытки установки подключения.<br>
 0.0.0.0 -  это немаршрутизируемый адрес IPv4, который используется в качестве адреса по умолчанию или адреса-заполнителя.
+
+---
+
+## Part 9. Установка и использование утилит top, htop
+- Uptime: 9 min<br>
+- 1 user<br>
+- Load average: 0.00, 0.01, 0.00<br>
+- Tasks: 125 total<br>
+- %Cpu(s): 0.1 us, 0.0 sy, 0.0 ni, 99.9 id, 0.0 wa, 0.0 hi, 0.0 si, 0.0 st<br>
+- MiB Mem: 7957.3 total, 7099.0 free, 230.4 used, 627.9 buff/cache<br>
+- PID 1411<br>
+- PID 1411<br>
+
+- ``htop сортировка по PID``<br>
+![Alt text](../misc/images/91.png "Optional Title")<br>
+- ``htop сортировка по PERCENT_CPU``<br>
+![Alt text](../misc/images/92.png "Optional Title")<br>
+- ``htop сортировка по PERCENT_MEM``<br>
+![Alt text](../misc/images/93.png "Optional Title")<br>
+- ``htop сортировка по TIME``<br>
+![Alt text](../misc/images/94.png "Optional Title")<br>
+- ``htop фильтр по процессу sshd``<br>
+![Alt text](../misc/images/95.png "Optional Title")<br>
+- ``htop поиск процесса syslog``<br>
+![Alt text](../misc/images/96.png "Optional Title")<br>
+- ``htop с добавленным выводом hostname, clock и uptime``<br>
+![Alt text](../misc/images/97.png "Optional Title")<br>
+
+---
+
+## Part 10. Использование утилиты fdisk
+- Disk /dev/sda, size: 25 GiB, 26843545600 bytes, 52428800 sectors<br>
+![Alt text](../misc/images/10.png "Optional Title")<br>
+
+---
+
+## Part 11. Использование утилиты df
+- ![Alt text](../misc/images/11.png "Optional Title")<br>
+bytes
+- ![Alt text](../misc/images/112.png "Optional Title")<br>
+ext4
+
+---
+
+## Part 12. Использование утилиты du
+- ``du command:``<br>
+![Alt text](../misc/images/121.png "Optional Title")<br>
+- ``/home:``<br>
+![Alt text](../misc/images/123.png "Optional Title")<br>
+- ``/var:``<br>
+![Alt text](../misc/images/124.png "Optional Title")<br>
+- ``/var/log/*:``<br>
+![Alt text](../misc/images/125.png "Optional Title")<br>
+
+---
+
+## Part 13. Установка и использование утилиты ncdu
+- ``Установка``<br>
+![Alt text](../misc/images/131.png "Optional Title")<br>
+- ``/home``<br>
+![Alt text](../misc/images/132.png "Optional Title")<br>
+- ``/var``<br>
+![Alt text](../misc/images/133.png "Optional Title")<br>
+- ``/var/log``<br>
+![Alt text](../misc/images/134.png "Optional Title")<br>
+
+---
+
+## Part 14. Работа с системными журналами
+- ``Последняя авторизация``<br>
+![Alt text](../misc/images/141.png "Optional Title")<br>
+- ``Перезапуск OpenSSH Server``<br>
+![Alt text](../misc/images/142.png "Optional Title")<br>
+
+---
+
+## Part 15. Использование планировщика заданий CRON
+- ``Создание задачи в cron``<br>
+![Alt text](../misc/images/151.png "Optional Title")<br>
+- ``uptime каждые 2 минуты``<br>
+![Alt text](../misc/images/152.png "Optional Title")<br>
+- ``Вывели список задач``<br>
+![Alt text](../misc/images/153.png "Optional Title")<br>
+- ``Удалили все задачи вывели список``<br>
+![Alt text](../misc/images/154.png "Optional Title")<br>
